@@ -7,9 +7,9 @@ plugins {
     id 'com.android.library' version '8.1.1' apply false
 }
 
-//dependencies {
-//    implementation 'com.android.application:app-magic:8.1.1'
-//}
+dependencies {
+    implementation 'com.android.application:app:8.1.1'
+}
 
 android {
     compileSdkVersion 30
