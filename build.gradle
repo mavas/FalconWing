@@ -10,8 +10,3 @@ plugins {
 dependencies {
     implementation 'com.android.application:app-magic:8.1.1'
 }
-
-repositories {
-    mavenCentral()
-    google()
-}
