@@ -10,3 +10,11 @@ plugins {
 dependencies {
     implementation 'com.android.application:app-magic:8.1.1'
 }
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        targetSdkVersion 30
+    }
+}
