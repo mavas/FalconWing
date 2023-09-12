@@ -28,5 +28,5 @@ jobs:
       run: chmod +x gradlew
     
     - name: Build with Gradle
-      run: ./gradlew --stacktrace build
+      run: ./gradlew --info build
       #run: ./gradlew assembleDebug
