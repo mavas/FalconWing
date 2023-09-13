@@ -6,6 +6,7 @@ android {
     namespace 'com.falconwing'
     compileSdk 33
     compileSdkVersion 33
+    sourceSets.main.manifest.srcFile './src/AndroidManifest.xml'
 
     defaultConfig {
         applicationId "com.falconwing"
